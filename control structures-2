@@ -1,0 +1,38 @@
+#series-1
+n=int(input())
+for i in range(1,n+1):
+    print(i**2,end=' ')
+   
+   
+
+#series-2
+ n = int(input())
+sum = 6
+for i in range(1,n+1):
+    print(sum,end=" ")
+    sum = sum + i * 5
+  
+  
+  #series-3
+  n=int(input())
+for i in range(1,n+1):
+    print(3**i,end=' ')
+    
+    
+    
+ #series-4   
+ a=int(input())
+s=0.5
+print(s,end=' ')
+for i in range(a-1):
+    b=3**i
+    s=s+b
+    print(s,end=' ')
+    
+    
+    
+#series-5
+ 
+    
+    
+  
