@@ -1,0 +1,25 @@
+#arithmetic operators
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+
+
+
+#square root
+x=int(input())
+y=(x**2)
+print(y)
+
+
+#cube root
+x=int(input())
+y=(x**3)
+print(y)
+
+
+
