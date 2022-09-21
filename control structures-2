@@ -32,7 +32,75 @@ for i in range(a-1):
     
     
 #series-5
- 
+a=int(input())
+s=11
+for i in range(a):
+    print(s*s,end=' ')
+    s=s+4
     
+    
+#series-6
+a=int(input())
+print("0 2",end=" ")
+s=6
+b=2
+for i in range(a):
+    flag=0
+    if i%2 == 1:
+        flag=1
+    b=b+s
+    print(b,end=' ')
+    if flag==1:
+        s=s+4
+        
+  
+ 
+ #series-7
+ a=int(input())
+s=1
+print(s,end=" ")
+k=0
+b=1
+for i in range(a):#1 2 3 4
+    flag = 0
+    s = s + b#2 3 6 9
+    print("%.1f"%s,end=" ")
+    if i%2 == 1:#0 1 0 1
+        flag = 1
+        k=k+1#0 1 1 2
+    if flag==1:
+        b=3**k
+        
+        
+#series-8
+n=int(input())
+a=4
+for i in range(1,n+1):
+    print(a,end=' ')
+    a=a+i*i
+ 
+ 
+ 
+#series-9
+n=int(input())
+a=2
+for i in range(1,n+1):
+    print(a,end=' ')
+    a=(a**2)-1
+    
+    
+#series-10
+a=int(input())
+s=95
+print("%.1f"%s,end=" ")
+b=20.5
+for i in range(a-1):
+    s=s+b
+    b=b+2
+    print(s,end=" ")
+    
+    
+    
+
     
   
