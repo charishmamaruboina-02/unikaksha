@@ -1,0 +1,60 @@
+#create a list
+n = int(input())
+lst = []
+for i in range(n):
+    n = int(input())
+    lst.append(n)
+print(lst)
+
+
+
+#largest number in list
+n=int(input())
+l=[]
+for i in range(0,n):
+   temp=int(input())
+   l.append(temp)
+print(max(l))
+
+
+#odd or even
+n=int(input())
+lst,odd,even=[],[],[]
+for i in range(n):
+    a=int(input())
+    lst.append(a)
+for i in lst:
+    if i%2==0:
+        even.append(i)
+    elif i%2!=0:
+        odd.append(i)
+print("The even list",even)
+print("The odd list",odd)
+
+
+#array mean
+n=int(input())
+lst=[]
+for i in range(n):
+    a=int(input())
+    lst.append(a)
+sum=sum(lst)
+print(sum/n)
+
+
+
+#sort the list
+n1=int(input())
+lst_1,lst_2=[],[]
+for i in range(n1):
+    a=int(input())
+    lst_1.append(a)
+n2=int(input())
+for i in range(n2):
+    b=int(input())
+    lst_2.append(b)
+total=lst_1+lst_2
+total.sort()
+print("sorted list is:",total)
+
+
