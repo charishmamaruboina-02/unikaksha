@@ -58,3 +58,35 @@ total.sort()
 print("sorted list is:",total)
 
 
+#remove duplicates
+n = int(input())
+lst_1,lst_2 = [],[]
+for  i in range(n):
+    a = int(input())
+    lst_1.append(a)
+for i in lst_1:
+    if i not in lst_2:
+        lst_2.append(i)
+print(lst_2)
+
+
+#second largest number
+n = int(input())
+lst = []
+for i in range(n):
+    a = int(input())
+    lst.append(a)
+lst.remove(max(lst))
+print(max(lst))
+
+
+#swap the numbers
+n = int(input())
+lst = []
+for i in range(n):
+    a = int(input())
+    lst.append(a)
+temp = lst[0]
+lst[0] = lst[n-1]
+lst[n-1] = temp
+print(lst)
